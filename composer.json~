@@ -1,0 +1,26 @@
+{
+    "name": "joseomarcg/table",
+    "description": "Build table quickly",
+    "authors": [
+        {
+            "name": "Jose Cabarcas",
+            "email": "josecabarcas94@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "joseomarcg\\table\\": "src/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}
